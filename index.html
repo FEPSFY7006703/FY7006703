@@ -1,124 +1,333 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ENG0018 Conference Paper</title>
 
-<html>
+  <!-- style for tables -->
+  <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 30%;
+      }
 
-  <head>
-  <img src="WebBanner2026.png" alt="Banner" width="1500" height="300">
-    <h1><b>ENG0018 Computer Labratory 2026/27</b></h1>
-    <h2>Student URN 7006703</h2>
-    <hr>
-    <h2 style="font-family:calibri;"><b>Conference paper: Bridge Deck Repairs</b></h2>
-    <hr>
-  </head>
-  <!style for tables>
-    <style>
-          table {
-            font-family: arial, sans-serif;
-            border-collapse: collapse;
-            width: 30%;
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
 
-          }
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+  </style>
 
-          td, th {
-            border: 1px solid #dddddd;
-            text-align: left;
-            padding: 8px;
-          }
+  <style>
+      p.ex1 {
+        margin-left: 250px;
+      }
+  </style>
 
-          tr:nth-child(even) {
-            background-colour: #dddddd;
-          }
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+    .mySlides {display:none;}
+  </style>
 
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
 
+<body style="background-color:#FFFFFF;margin-left:50px;">
 
+  <img src="WebBanner2026.png" alt="Banner" width="1200" height="300">
+  <h1><b>ENG0018 Computer Laboratory 2026/27</b></h1>
+  <h2>Student URN: 7006703</h2>
+  <hr>
+  <h2 style="font-family:calibri;"><b>Surgical Robotics: Precision, Promise and the Limits of the Evidence</b></h2>
+  <hr>
 
-        </style>
+  <!-- table of contents -->
+  <p class="ex1">
+  <table>
+    <tr>
+      <th><h3>Table of contents</h3></th>
+    </tr>
+    <tr>
+      <td><a href="#Abstract">Abstract</a></td>
+    </tr>
+    <tr>
+      <td><a href="#Introduction">Introduction</a></td>
+    </tr>
+    <tr>
+      <td><a href="#Analysis and discussion">Analysis and discussion</a></td>
+    </tr>
+    <tr>
+      <td><a href="#References">References</a></td>
+    </tr>
+  </table>
+  </p>
+  <hr>
 
-      <style>
-    p.ex1 {
-      margin-left: 250px;
-    }
-    </style>
-      </head>
-<!-- //////////////////////////////////////////////////////////////////////////////// -->
-  <!-- ////////////////////////////// Adding last update ////////////////////////////// -->
-  <!-- //////////////////////////////////////////////////////////////////////////////// -->
-    <!-- Last commit time display -->
-<div id="last-updated">Loading last update time...</div>
-<!-- Verify Button -->
-<button onclick="verifyLastUpdatedTime()" style="display: block; margin: 10px auto; padding: 8px 16px;">
+  <!-- Abstract -->
+  <h3 id="Abstract">Abstract</h3>
+  <p class="ex1">
+  <pre>
+Robotic systems such as the da Vinci platform have changed minimally invasive surgery by giving surgeons tremor filtering,
+motion scaling and three-dimensional vision. This article reviews three peer-reviewed sources to explain how surgical robots
+work, the benefits they offer patients, and the physiological trade-offs involved. The evidence points to improved precision,
+reduced blood loss and faster recovery. However, only a limited number of studies have demonstrated these benefits, and the
+procedures carry costs, including reduced pulmonary compliance and possible limits on immune function.
+  </pre>
+  </p>
+  <hr>
+
+  <!-- Introduction -->
+  <h3 id="Introduction">Introduction</h3>
+  <p class="ex1">
+  <pre id="Introduction_InText">
+For centuries, surgery has depended on the steadiness and judgement of the human hand. Over the past two decades, however,
+robotic systems have begun to extend what that hand can achieve. The da Vinci system, introduced in 2000, brought
+tele-operated surgery and an enhanced three-dimensional view of the operating field into clinical practice (Mokhtari,
+Hosseinzadeh and Nourazarian, 2024), and it remains the most widely used robotic surgical platform (Chauhan, Shinde and
+Jain, 2023). This article explains how surgical robots work, what benefits they offer patients, and what trade-offs they
+involve for patients. It draws on three peer-reviewed reviews, so its findings reflect summaries of existing studies rather
+than new trials.
+  </pre>
+  </p>
+  <hr>
+
+  <!-- Analysis and discussion -->
+  <h3 id="Analysis and discussion">Analysis and discussion</h3>
+  <p class="ex1">
+  <span id="Analysis_InText">
+<b>How surgical robots work</b><br>
+Despite the name, surgical robots do not operate on their own. In the da Vinci design, the surgeon sits at a console while robotic arms hold and manipulate the instruments. A vision system provides a magnified view of the surgical site, and the surgeon stays in complete control of every action (Chauhan, Shinde and Jain, 2023).
+<br><br>
+The engineering value lies in how the system transforms the surgeon’s movements. Mokhtari, Hosseinzadeh and Nourazarian (2024) identify the elimination of tremor, scaled motion and three-dimensional visualisation as key advantages, meaning a large hand movement can become a tiny, steady instrument movement inside the patient. Giri and Sarkar (2012) add that the da Vinci system successfully addressed some important handicaps of conventional laparoscopic surgery, which is performed through small incisions using long, rigid instruments.
+<br><br>
+<b>Benefits for patients</b><br>
+The main appeal of robotic surgery is that it allows complex operations to be performed in a minimally invasive way. Chauhan, Shinde and Jain (2023) report that robotic devices improve surgical accuracy, dexterity and visualisation, and link the approach to better postoperative quality of life. Giri and Sarkar (2012) similarly describe studies showing reduced blood loss and a lower percentage of postoperative complications, although only a limited number of studies have demonstrated these benefits.
+<br><br>
+At a physiological level, minimising tissue trauma reduces surgical stress and inflammation, which contributes to faster recovery. Robotic procedures also limit ischaemia–reperfusion injury and oxidative damage compared with open surgery (Mokhtari, Hosseinzadeh and Nourazarian, 2024). The technology is now used for procedures including prostatectomy, hysterectomy, nephrectomy and mitral valve repair (Mokhtari, Hosseinzadeh and Nourazarian, 2024). Taken together, these findings suggest the advantages are clearest in precision and short-term recovery, while long-term outcomes are less certain.
+<br><br>
+<b>Physiological trade-offs</b><br>
+Robotic surgery is not free of drawbacks for the patient. Mokhtari, Hosseinzadeh and Nourazarian (2024) note that pneumoperitoneum (inflating the abdomen with gas) and steep head-down positioning can reduce pulmonary compliance and splanchnic perfusion while increasing hypercarbia. The same reduction in surgical stress that speeds recovery may also limit immune function (Mokhtari, Hosseinzadeh and Nourazarian, 2024).
+  </span>
+  </p>
+  <hr>
+
+  <!-- Charts (lab H3) -->
+  <div id="chart_pie" style="width: 600px; height: 400px;"></div>
+  <div id="chart_scatter" style="width: 600px; height: 400px;"></div>
+  <div id="chart_bar" style="width: 600px; height: 400px;"></div>
+  <div id="chart_line" style="width: 1000px; height: 600px;"></div>
+  <div id="chart_column" style="width: 600px; height: 400px;"></div>
+  <hr>
+
+  <!-- References -->
+  <h3 id="References">References</h3>
+  <p class="ex1">
+  <pre>
+Chauhan, S., Shinde, R.K. and Jain, Y. (2023) ‘Robotic-assisted surgery and its impact on patient outcomes: a narrative
+review’, <i>Journal of Clinical and Diagnostic Research</i>, 17(10), pp. PE01–PE04. doi: <a href="https://doi.org/10.7860/JCDR/2023/66770.18564">10.7860/JCDR/2023/66770.18564</a>.
+
+Giri, S. and Sarkar, D.K. (2012) ‘Current status of robotic surgery’, <i>Indian Journal of Surgery</i>, 74(3), pp. 242–247.
+doi: <a href="https://doi.org/10.1007/s12262-012-0595-4">10.1007/s12262-012-0595-4</a>.
+
+Mokhtari, L., Hosseinzadeh, F. and Nourazarian, A. (2024) ‘Biochemical implications of robotic surgery: a new frontier in
+the operating room’, <i>Journal of Robotic Surgery</i>, 18(1), article 91. doi: <a href="https://doi.org/10.1007/s11701-024-01861-6">10.1007/s11701-024-01861-6</a>.
+  </pre>
+  </p>
+  <hr>
+
+  <!-- Presentation video -->
+  <p class="ex1">
+    <video src="ENG0018 Presentation.mp4" width="800" height="450" controls></video>
+  </p>
+  <hr>
+
+  <!-- Adding last update -->
+  <div id="last-updated" style="margin-left: 50px;">Loading last update time...</div>
+
+  <!-- Verify Button -->
+  <button onclick="verifyLastUpdatedTime()" style="display: block; margin: 10px 0 10px 50px; padding: 8px 16px;">
     Verify Last Modified Time
-</button>
-<script>
+  </button>
+
+  <!-- Placeholder for total word count -->
+  <p id="totalWordCount" style="margin-left: 50px; font-weight: bold;"></p>
+
+  <hr>
+
+  <script type="text/javascript">
+    google.charts.load('current', { 'packages': ['corechart'] });
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+      // Pie chart
+      var pieData = google.visualization.arrayToDataTable([
+        ['Task', 'Hours per Day'],
+        ['Work', 8],
+        ['Sleep', 8],
+        ['Eat', 2],
+        ['Study', 4],
+        ['Exercise', 2]
+      ]);
+      var pieOptions = {
+        title: 'My Daily Activities'
+      };
+      var pieChart = new google.visualization.PieChart(document.getElementById('chart_pie'));
+      pieChart.draw(pieData, pieOptions);
+
+      // Scatter chart
+      var scatterData = new google.visualization.DataTable();
+      scatterData.addColumn('number', 'Age');
+      scatterData.addColumn('number', 'Salary');
+      scatterData.addRows([
+        [25, 40000],
+        [30, 50000],
+        [35, 60000],
+        [40, 75000],
+        [45, 80000],
+        [50, 90000]
+      ]);
+      var scatterOptions = {
+        title: 'Age vs. Salary',
+        hAxis: { title: 'Age' },
+        vAxis: { title: 'Salary' }
+      };
+      var scatterChart = new google.visualization.ScatterChart(document.getElementById('chart_scatter'));
+      scatterChart.draw(scatterData, scatterOptions);
+
+      // Bar chart (2023 populations)
+      var barData = new google.visualization.DataTable();
+      barData.addColumn('string', 'City');
+      barData.addColumn('number', 'Population');
+      barData.addRows([
+        ['London', 9648000],
+        ['Birmingham', 1153900],
+        ['Edinburgh', 554000]
+      ]);
+      var barOptions = {
+        title: 'City Populations in 2023 (Bar Chart)',
+        hAxis: { title: 'Population' },
+        vAxis: { title: 'City' },
+        colors: ['#3366cc'],
+        legend: 'none'
+      };
+      var barChart = new google.visualization.BarChart(document.getElementById('chart_bar'));
+      barChart.draw(barData, barOptions);
+
+      // Line chart (population trends)
+      var lineData = new google.visualization.DataTable();
+      lineData.addColumn('number', 'Year');
+      lineData.addColumn('number', 'London');
+      lineData.addColumn('number', 'Birmingham');
+      lineData.addColumn('number', 'Edinburgh');
+      lineData.addRows([
+        [2013, 8414000, 1092200, 495000],
+        [2015, 8661000, 1113000, 507000],
+        [2017, 8916000, 1137100, 519000],
+        [2019, 9177000, 1141800, 531000],
+        [2021, 9426000, 1142500, 543000],
+        [2023, 9648000, 1153900, 554000]
+      ]);
+      var lineOptions = {
+        title: 'City Population Trends (2013-2023)',
+        hAxis: { title: 'Year' },
+        vAxis: { title: 'Population' },
+        colors: ['#3366cc', '#dc3912', '#ff9900'],
+        curveType: 'function',
+        legend: { position: 'bottom' }
+      };
+      var lineChart = new google.visualization.LineChart(document.getElementById('chart_line'));
+      lineChart.draw(lineData, lineOptions);
+
+      // Column chart (monthly sales)
+      var colData = google.visualization.arrayToDataTable([
+        ['Month', 'Sales (in GBP)', { role: 'style' }],
+        ['January',   25000, 'color: #3366cc'],
+        ['February',  28000, 'color: #dc3912'],
+        ['March',     32000, 'color: #ff9900'],
+        ['April',     27000, 'color: #109618'],
+        ['May',       31000, 'color: #990099'],
+        ['June',      34000, 'color: #0099c6'],
+        ['July',      38000, 'color: #dd4477'],
+        ['August',    36000, 'color: #66aa00'],
+        ['September', 31000, 'color: #b82e2e'],
+        ['October',   29000, 'color: #316395'],
+        ['November',  27000, 'color: #994499'],
+        ['December',  32000, 'color: #22aa99']
+      ]);
+      var colOptions = {
+        title: 'Monthly Sales in 2023',
+        hAxis: { title: 'Month' },
+        vAxis: { title: 'Sales (in GBP)' },
+        legend: 'none'
+      };
+      var colChart = new google.visualization.ColumnChart(document.getElementById('chart_column'));
+      colChart.draw(colData, colOptions);
+    }
+  </script>
+
+  <script>
     async function getLastUpdatedTime() {
-        const username = 'FEPSFY7006703';
-        const repo = 'FY7006703';
-       
-        const url = `https://api.github.com/repos/${username}/${repo}/commits`;
-        try {
-            const response = await fetch(url, {
-                method: 'GET',
-                headers: {
-                    'Accept': 'application/vnd.github.v3+json',
-                }
-            });
-            if (!response.ok) {
-                throw new Error(`Error fetching data: ${response.status} - ${response.statusText}`);
-            }
-            const commits = await response.json();
-            if (commits && commits.length > 0) {
-                const lastCommitDate = new Date(commits[0].commit.committer.date);
-               
-                // Displaying the time on load
-                document.getElementById('last-updated').innerText = `Last Modified Time: ${lastCommitDate.toLocaleString()}`;
-            } else {
-                document.getElementById('last-updated').innerText = 'No commits found in the repository.';
-            }
-        } catch (error) {
-            console.error('Error fetching the last updated time:', error);
-            document.getElementById('last-updated').innerText = 'Error fetching update time. Please check the repository details.';
+      const username = 'FEPSFY7006703';
+      const repo = 'FY7006703';
+
+      const url = `https://api.github.com/repos/${username}/${repo}/commits`;
+
+      try {
+        const response = await fetch(url, {
+          method: 'GET',
+          headers: {
+            'Accept': 'application/vnd.github.v3+json',
+          }
+        });
+
+        if (!response.ok) {
+          throw new Error(`Error fetching data: ${response.status} - ${response.statusText}`);
         }
+
+        const commits = await response.json();
+        if (commits && commits.length > 0) {
+          const lastCommitDate = new Date(commits[0].commit.committer.date);
+          document.getElementById('last-updated').innerText = `Last Modified Time: ${lastCommitDate.toLocaleString()}`;
+        } else {
+          document.getElementById('last-updated').innerText = 'No commits found in the repository.';
+        }
+      } catch (error) {
+        console.error('Error fetching the last updated time:', error);
+        document.getElementById('last-updated').innerText = 'Error fetching update time. Please check the repository details.';
+      }
     }
-    // Function to verify the last update time by re-fetching it from the API
+
     async function verifyLastUpdatedTime() {
-        document.getElementById('last-updated').innerText = 'Verifying...';
-        await getLastUpdatedTime();
-        alert("Last modified time has been successfully verified from GitHub API.");
+      document.getElementById('last-updated').innerText = 'Verifying...';
+      await getLastUpdatedTime();
+      alert("Last modified time has been successfully verified from GitHub API.");
     }
-    // Initial load to display the time on page load
-    window.onload = getLastUpdatedTime;
-</script>
 
+    function displayWordCount(sectionId) {
+      const element = document.getElementById(sectionId);
+      if (!element) return 0;
+      const text = element.textContent;
+      const wordArray = text.trim().split(/\s+/);
+      return wordArray.length > 0 && wordArray[0] !== "" ? wordArray.length : 0;
+    }
 
- <!-- //////////////////////////////////////////////////////////////////////////////// -->
-  <!-- ////////////////////////////// Word count function ////////////////////////////// -->
-  <!-- //////////////////////////////////////////////////////////////////////////////// -->
-<!-- Placeholder for total word count -->
-<p id="totalWordCount"></p>
-<hr>
-<script>
-  // Function to calculate and display word count for a specified section
-  function displayWordCount(sectionId, outputId) {
-    // Get the text content from the specified section
-    const text = document.getElementById(sectionId).textContent;
-    // Split text into words based on spaces and filter out any empty strings
-    const wordArray = text.trim().split(/\s+/);
-    // Count the words
-    const wordCount = wordArray.length;
-    // Return the word count for summing purposes
-    return wordCount;
-  }
-  // Function to calculate and display total word count from selected sections
-  function displayTotalWordCount() {
-    // Calculate word count for each section and accumulate the total
-    const IntroductionCount = displayWordCount("Introduction_InText");
-    const AnalysisCount = displayWordCount("Analysis_InText");
-    // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount + AnalysisCount;
-    // Display the total word count
-    document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
-  }
-  // Run the function for specific sections and display total count when the page loads
-  window.onload = displayTotalWordCount;
-</script>
+    function displayTotalWordCount() {
+      const IntroductionCount = displayWordCount("Introduction_InText");
+      const AnalysisCount = displayWordCount("Analysis_InText");
+      const totalWordCount = IntroductionCount + AnalysisCount;
+      document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
+    }
+
+    window.addEventListener('load', function () {
+      getLastUpdatedTime();
+      displayTotalWordCount();
+    });
+  </script>
+</body>
 </html>
